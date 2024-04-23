@@ -157,7 +157,7 @@ def solveshit(sectionlist, startsection, endsection):
     print(chapter['title'])
     print(str(startsection) + " " + str(endsection))
     print("solving shit")
-    for sec in range(startsection-1, endsection-1):
+    for sec in range(startsection-1, endsection):
         zb.solveall(sectionlist[sec], book, chapter, auth)
     
 #Load Screen
