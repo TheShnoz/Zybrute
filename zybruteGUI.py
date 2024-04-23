@@ -132,7 +132,7 @@ def getchapters(bookcode):
 
 
 def getsections(chaplist, chapternumber):
-    chapternumber = int(chapternumber)
+    chapternumber = int(chapternumber) - 1
     print("Success" + str(chapternumber))
     sectionlist = zb.getsections(chaplist, chapternumber)
     #print(sectionlist)
