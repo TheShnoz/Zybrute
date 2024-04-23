@@ -160,6 +160,7 @@ def solveshit(sectionlist, startsection, endsection):
     for sec in range(startsection-1, endsection):
         zb.solveall(sectionlist[sec], book, chapter, auth)
     
+
 #Load Screen
 SigninScreen()
 root.mainloop()
